@@ -1,2 +1,2 @@
 # marksweep
-Partial implementation the the mark-sweep garbage collection algorithm
+A practice implementation of the mark-sweep garbage collection algorithm

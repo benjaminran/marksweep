@@ -9,6 +9,7 @@ std::vector<Object*>* rootset;
 
 /* mark an object and those it references */
 void mark(Object* obj) {
+  if(obj->marked) return;
   obj->marked = true;
   for(auto iter = obj->objectsReferenced->begin(); iter != obj->objectsReferenced->end(); ++iter) {
     mark(*iter);

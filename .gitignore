@@ -1,3 +1,6 @@
-# Emacs
+# Emacs Autosaves/Backups
 *#
 *~
+
+# G++ Output
+*.dSYM
